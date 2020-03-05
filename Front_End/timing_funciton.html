@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timing funciton testing</title>
+</head>
+<body>
+    
+    <h1>Welcome timing functions </h1>
+    <h2>This is only timer</h2>
+    <button id="startTimer" onclick="startTimer()">Start timer</button>
+    <h2 id="heading1">Counting</h2>
+    <button id="stopTimer" onclick="stopTimer()">Stop timer</button>
+    <br><br>
+
+    <h2>This is real time counter like in your phone :)</h2>
+    <h2 id="heading2">00:00:00</h2> 
+    <h3 id="heading3">First select time format & click begin</h3> 
+    <input id="radbtn1" name="group1" type="radio" value="24HourFormat">24 Hour Format
+    <input id="radbtn2" name="group1" type="radio" value="12HourFormat">12 Hour Format  
+    <button id="begin" onclick="beginOperation()">Begin</button>
+    <br><br>
+    <button id="startInterval" onclick="startInterval()">Start</button>
+    <button id="stopInterval" onclick="stopInterval()">Stop</button>
+    <button id="resetInterval" onclick="resetInterval()">Reset</button>
+
+    <script src="timing_function.js"></script>
+
+</body>
+</html>

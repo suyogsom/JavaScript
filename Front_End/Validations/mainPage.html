@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is main page</title>
+</head>
+
+<body>
+    <form action="message.html" onsubmit="return validation()">
+        <input id="username" placeholder=" Enter username here" type="text"><br><br>
+        <label id="usernameLbl" style="color: red; visibility: hidden;">Invalid Username</label> 
+        <br>
+        <input id="password" placeholder=" Enter password here" type="password"><br><br>
+        <label id="passwordLbl" style="color: red; visibility: hidden;">Invalid Password</label> 
+        <br>
+        <button id="submit1" type="submit">Submit</button>
+        <br><br>
+    </form>
+
+    <script src="validations.js"></script>
+</body>
+</html>
